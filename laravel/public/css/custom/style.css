@@ -1,0 +1,108 @@
+html{
+    height:100%;
+}
+body{
+    height:100%;
+    
+    
+    background: red; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #8A0404, #AE1212, #C41010, #FA5882); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #8A0404, #AE1212, #C41010, #FA5882); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #8A0404, #AE1212, #C41010, #FA5882); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #8A0404, #AE1212, #C41010, #FA5882); /* Standard syntax (must be last) */
+}
+
+h1{
+    font-size: 30px;
+    color: #8A0404;
+    font-weight: Bold;
+}
+
+
+
+#header{
+    background: #D3CBCB;
+    border-bottom: solid 5px #A9A6A6;
+    height:60px;
+    padding: 0 ;
+}
+
+#nav-bar{
+    background: #A9A6A6;
+    height: 40px;
+}
+
+#nav-list{
+    margin:0 0 0 90px;
+    /*margin-left:90px;*/
+    height: 100%;
+}
+
+.nav-item{
+    text-decoration: none;
+    border-right : solid 1px #D3CBCB;
+    list-style: none;
+    display: initial;
+    height:100%;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 10px 0 10px;
+}
+
+.nav-item:hover{
+    background: #c9c6c6;
+    display: initial;
+    margin: 0 10px 0 10px;
+
+}
+
+
+.row-modual{
+    background: #D3CBCB;
+    width:100%;
+    border-top: 2px solid #A9A6A6;
+    border-bottom: 2px solid #A9A6A6;
+    min-height: 200px;
+}
+
+
+.parallax { 
+    /* The image used */
+    background-image: url("img_parallax.jpg");
+
+    /* Set a specific height */
+    height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.people-list{
+    
+}
+
+.people-list li{
+    list-style:none;
+    display: inline-block;
+    margin-right: 6%;
+}
+
+.people-list li img{
+    height: 100px;
+    padding: 3px;
+    background: #224FE5;
+    border: 2px solid #2946A5;
+    margin-top:10px;
+}
+
+.people-list li p{
+    font-size: 13px;
+}
+
+.people-list li h3{
+    font-size:26px;
+    margin-bottom: 3px;
+}
