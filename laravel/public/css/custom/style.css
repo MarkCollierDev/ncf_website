@@ -106,3 +106,24 @@ h1{
     font-size:26px;
     margin-bottom: 3px;
 }
+
+#club-logo-list{
+    margin-left: 110px;
+}
+
+#club-logo-list img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: solid 3px #2946A5;
+}
+
+#club-logo-list li{
+    list-style:none;
+    display: inline-block;
+    margin-right:130px;
+}
+
+#club-logo-list li.odd img{
+    margin-top:100px;
+}
